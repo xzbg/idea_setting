@@ -1,0 +1,29 @@
+<templateSet group="Lua">
+  <template name="com" value="---$A_FUNC_NAME$&#10;---@param $VAR$ $VAR_TYPE$&#10;function $A_FUNC_NAME$($VAR$)&#10;&#10;end" description="add comment to export function" toReformat="false" toShortenFQNames="true">
+    <variable name="A_FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="func" value="---$A_FUNC_NAME$ $COMMENT$&#10;---@param $VAR$ $VAR_TYPE$&#10;function $A_FUNC_NAME$($VAR$)&#10;    $END$&#10;end" description="define function" toReformat="true" toShortenFQNames="true">
+    <variable name="A_FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="iof" value="--- TODO delete by shenhj&#10;print(string.format(&quot;-------------------- $VAR$ = %s&quot;, $VAR$))$END$" description="print" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="log" value="print(&quot;^^^^^^ $VAR$ &quot;)$END$" description="print simple log" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,46 @@
+#parse("Lua File Header.lua")
+${NAME} = {}   --全局模块（必须与文件名相同）
+
+--[[
+    加载场景
+]]--
+function ${NAME}.Load()
+    -- TODO
+end
+
+--C#调用，创建绑定脚本
+----@param xluaScene XluaBaseScene  @C#脚本
+----@param gameObject   GameObject  @脚本绑定对象
+----@param initData     any         @调用传参
+----@param goTable      table       @绑定对象
+------ 生命周期 Start / Update / FixedUpdate / OnApplicationQuit / Destroy / OnEnable / OnDisable
+function ${NAME}.New(xluaScene, gameObject, initData, goTable)
+    local module = {}
+    
+    --region -------------局部变量-------------
+    --local fn = {}   -- 私有函数表
+    --endregion
+    
+    --region -------------生命周期-------------
+
+    ----场景启动
+    function module.Start()
+        
+    end
+
+    ----场景销毁
+    --function module.Destroy()
+    --end
+
+    --endregion
+    
+    --region -------------导出函数-------------
+    
+    --endregion
+    
+    --region -------------私有函数-------------
+    
+    --endregion
+    
+    return module
+end

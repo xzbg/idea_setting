@@ -1,0 +1,30 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+  </component>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="12" />
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE:PREVIEW" />
+    <option name="CARET_BLINKING_PERIOD" value="1000" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern icon="important" useCustomColors="true" pattern="注意\b.">
+      <option name="FOREGROUND" value="ed4337" />
+      <option name="FONT_TYPE" value="1" />
+      <option name="EFFECT_TYPE" value="5" />
+    </pattern>
+    <pattern icon="important" useCustomColors="true" pattern="\bNotice\b.">
+      <option name="FOREGROUND" value="ed4337" />
+      <option name="FONT_TYPE" value="1" />
+    </pattern>
+    <filter name="todo">
+      <pattern index="1" />
+      <pattern index="0" />
+    </filter>
+  </component>
+</application>

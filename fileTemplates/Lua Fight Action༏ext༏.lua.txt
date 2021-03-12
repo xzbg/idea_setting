@@ -1,0 +1,7 @@
+#parse("Lua File Header.lua")
+ ${NAME} = {}
+ --[[
+    解析方法
+ ]]
+ function ${NAME}.Parse(time, data)
+ end

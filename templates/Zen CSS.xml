@@ -1,0 +1,7 @@
+<templateSet group="Zen CSS">
+  <template name="ov:v" value="overflow:visible;" description="overflow:visible;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

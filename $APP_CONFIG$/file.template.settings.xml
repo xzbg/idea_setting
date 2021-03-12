@@ -1,0 +1,17 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="Elixir.Application.ex" reformat="false" live-template-enabled="false" />
+      <template name="Elixir.GenServer.ex" reformat="false" live-template-enabled="false" />
+      <template name="Elixir.Supervisor.ex" reformat="false" live-template-enabled="false" />
+      <template name="XSLT Stylesheet.xsl" reformat="true" live-template-enabled="false" enabled="false" />
+    </default_templates>
+    <internal_templates>
+      <template name="Elixir Application.ex" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="Elixir GenEvent.ex" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="Elixir GenServer.ex" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="Elixir Module.ex" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="Elixir Supervisor.ex" reformat="false" live-template-enabled="false" enabled="true" />
+    </internal_templates>
+  </component>
+</application>

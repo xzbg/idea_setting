@@ -1,0 +1,3 @@
+-copyright({jzyx, 'www.jzyx.com'}).
+-author({${FULLNAME}, ${EMAIL}}).
+-vsn(1).

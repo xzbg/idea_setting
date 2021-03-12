@@ -1,0 +1,36 @@
+#parse("Lua File Header.lua")
+function ${NAME}(delay, duration)
+    local logic = {}
+    -- 序列帧
+    local frame = FightFrame(delay, duration, logic, "${NAME}")
+    --[[
+        开始执行
+    ]]
+    ---@param frame FightFrame
+    ---@param nowTime number
+    function logic.Start(frame, nowTime)
+    end
+
+    --[[
+        执行过程中
+    ]]
+    ---@param frame FightFrame
+    ---@param nowTime number
+    function logic.Run(frame, nowTime)
+    end
+
+    --[[
+        结束执行
+    ]]
+    ---@param frame FightFrame
+    function logic.Stop(frame)
+    end
+
+    --[[
+        销毁方法
+    ]]
+    ---@param frame FightFrame
+    function logic.Destroy(frame)
+    end
+    return frame
+end

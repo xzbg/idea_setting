@@ -1,0 +1,14 @@
+#parse("Lua File Header.lua")
+${NAME} = {}   --全局模块（必须与文件名相同）
+
+--region -------------局部变量-------------
+--local fn = {}   --私有函数表
+--endregion
+
+--region -------------导出函数-------------
+
+--endregion
+
+--region -------------私有函数-------------
+
+--endregion

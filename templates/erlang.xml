@@ -1,0 +1,100 @@
+<templateSet group="erlang">
+  <template name="ife" value="if&#10;    $GUARD$ -&gt;&#10;        $EXPR1$;&#10;    true -&gt;&#10;        $EXPR2$&#10;end$END$" description="if statement" toReformat="true" toShortenFQNames="true">
+    <variable name="GUARD" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_EXPRESSION" value="true" />
+      <option name="ERLANG_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="T" value="try&#10;    $SELECTION$&#10;catch&#10;    $CLASS$:$PATTERN$ $GUARD$ -&gt; $END$&#10;end " description="surround with try...catch" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GUARD" expression="when $GUARD$" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="B" value="begin&#10;    $SELECTION$&#10;end" description="surround with begin...end" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="iof" value="%% TODO delete by shenhj&#10;io:format(&quot;$PATTERN$ = ~p~n&quot;, [$PATTERN$])," description="io:format" toReformat="false" toShortenFQNames="true">
+    <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_EXPRESSION" value="true" />
+      <option name="ERLANG_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="com" value="%%-----------------------------------------------------------------&#10;%% @doc $C_DOC$&#10;%% ```&#10;%%  TODO 这里填写更多详细说明（可选），不需要的话就删掉&#10;%% '''&#10;%% @end&#10;%% -----------------------------------------------------------------&#10;-spec $A_FUNC_NAME$() -&gt;&#10;    $RETURN_TYPE$().&#10;%% -----------------------------------------------------------------" description="add comment to export function" toReformat="false" toShortenFQNames="true">
+    <variable name="C_DOC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="A_FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="exp" value="-export([$NAME$]).$END$" description="Define export" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ext" value="-export_type([$NAME$]).$END$" description="export type" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="dbg" value="?LOG_DEBUG(?MODULE, ?LINE, [{&quot;$Pattern$&quot;, $Pattern$}]),$END$" description="debug log" toReformat="false" toShortenFQNames="true">
+    <variable name="Pattern" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="info" value="log:info(?MODULE, ?LINE, [{&quot;$Pattern$&quot;, $Pattern$}]),$END$" description="log:info" toReformat="false" toShortenFQNames="true">
+    <variable name="Pattern" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_EXPRESSION" value="true" />
+      <option name="ERLANG_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="warn" value="log:warn(?MODULE, ?LINE, [{&quot;$Pattern$&quot;, $Pattern$}]),$END$" description="log:warn" toReformat="false" toShortenFQNames="true">
+    <variable name="Pattern" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_EXPRESSION" value="true" />
+      <option name="ERLANG_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="error" value="log:error(?MODULE, ?LINE, [{&quot;$Pattern$&quot;, $Pattern$}]),$END$" description="log:error" toReformat="false" toShortenFQNames="true">
+    <variable name="Pattern" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_EXPRESSION" value="true" />
+      <option name="ERLANG_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lc" value="[$RES$ || $VAR$ &lt;- $LIST$]$END$" description="list comprehension" toReformat="false" toShortenFQNames="true">
+    <variable name="LIST" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rec" value="-record($NAME$, {&#10;    $FIELD1$ = $TYPE1$,&#10;    $FIELD2$ = $TYPE2$&#10;})." description="define record" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="oo" value="($EXPR$)$END$" shortcut="SPACE" description="()" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="debug" value="?LOG_DEBUG(?MODULE, ?LINE, [{&quot;$Pattern$&quot;, $Pattern$}]),$END$" description="debug log" toReformat="false" toShortenFQNames="true">
+    <variable name="Pattern" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
