@@ -10,8 +10,8 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.cfg</mask>
-    <mask>*.proto.txt</mask>
     <mask>*.erl</mask>
     <mask>*.lua.txt</mask>
+    <mask>*.proto.txt</mask>
   </component>
 </application>
