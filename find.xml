@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.lua.txt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -13,9 +14,9 @@
     <mask>*.java</mask>
     <mask>*.cfg</mask>
     <mask>*.proto.txt</mask>
-    <mask>*.lua.txt</mask>
     <mask>*.hrl</mask>
     <mask>*.txt</mask>
     <mask>*.erl</mask>
+    <mask>*.lua.txt</mask>
   </component>
 </application>
