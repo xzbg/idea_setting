@@ -14,7 +14,7 @@
     <variable name="VAR_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="iof" value="--- TODO delete by shenhj&#10;print(table.tostring($VAR$))$END$" description="print" toReformat="false" toShortenFQNames="true">
+  <template name="iof" value="--- TODO delete by shenhj&#10;print(&quot;$VAR$&quot;, table.tostring($VAR$))$END$" description="print" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="LUA_CODE" value="true" />
