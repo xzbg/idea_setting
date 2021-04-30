@@ -24,7 +24,7 @@
       <option name="ERLANG_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="com" value="%%-----------------------------------------------------------------&#10;%% @doc $C_DOC$&#10;%% ```&#10;%%  TODO 这里填写更多详细说明（可选），不需要的话就删掉&#10;%% '''&#10;%% @end&#10;%% -----------------------------------------------------------------&#10;-spec $A_FUNC_NAME$() -&gt;&#10;    $RETURN_TYPE$().&#10;%% -----------------------------------------------------------------" description="add comment to export function" toReformat="false" toShortenFQNames="true">
+  <template name="com" value="%%-----------------------------------------------------------------&#10;%% @doc $C_DOC$&#10;%% ```&#10;%%  TODO 这里填写更多详细说明（可选），不需要的话就删掉&#10;%% '''&#10;%% @end&#10;%% -----------------------------------------------------------------&#10;-spec $A_FUNC_NAME$() -&gt;&#10;    $RETURN_TYPE$()." description="add comment to export function" toReformat="false" toShortenFQNames="true">
     <variable name="C_DOC" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="A_FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
