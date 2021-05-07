@@ -12,10 +12,10 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.cfg</mask>
-    <mask>*.hrl</mask>
     <mask>*.txt</mask>
     <mask>*.erl</mask>
     <mask>*.proto.txt</mask>
     <mask>*.lua.txt</mask>
+    <mask>*.hrl</mask>
   </component>
 </application>
