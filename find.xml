@@ -5,7 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.lua.txt" />
+    <option name="FILE_MASK" value="*.erl" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -14,9 +14,9 @@
     <mask>*.java</mask>
     <mask>*.cfg</mask>
     <mask>*.txt</mask>
-    <mask>*.erl</mask>
     <mask>*.hrl</mask>
     <mask>*.proto.txt</mask>
     <mask>*.lua.txt</mask>
+    <mask>*.erl</mask>
   </component>
 </application>
