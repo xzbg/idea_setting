@@ -14,11 +14,12 @@
   </action>
   <action id="AddToFavoritesPopup" />
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="shift ctrl f4" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
-  <action id="CloseProject">
-    <keyboard-shortcut first-keystroke="alt back_space" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift alt w" />
   </action>
+  <action id="CloseContent" />
   <action id="ContextHelp" />
   <action id="DatabaseView.PropertiesAction">
     <keyboard-shortcut first-keystroke="enter" />
@@ -90,4 +91,5 @@
   <action id="XDebugger.AttachToLocalProcess">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
+  <action id="tasks.close" />
 </keymap>
