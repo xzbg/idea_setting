@@ -8,9 +8,9 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="hero_attr_port.cfg" type="PLAIN_TEXT" />
       <mapping ext="boot" type="PLAIN_TEXT" />
-      <mapping pattern="*.proto.txt" type="PROTO" />
       <mapping pattern="*.lua.txt" type="lua" />
       <mapping ext="txt" type="lua" />
+      <hashBang value="*.proto.txt" type="protobuf" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="beam" approved="true" type="PLAIN_TEXT" />
@@ -29,6 +29,7 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
+      <mapping pattern="*.proto.txt" type="PROTO" />
       <mapping ext="tpb" type="DBN-PSQL" />
       <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="tps" type="DBN-PSQL" />
