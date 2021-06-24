@@ -1,4 +1,4 @@
-<keymap version="1" name="Eclipse copy" parent="Eclipse">
+<keymap version="1" name="Xzbg" parent="Eclipse">
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateFavoritesToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
@@ -31,13 +31,16 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
-  <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="shift ctrl alt n" />
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
+  <action id="GotoSymbol" />
   <action id="HighlightUsagesInFile">
     <keyboard-shortcut first-keystroke="shift alt o" />
     <keyboard-shortcut first-keystroke="alt f8" />
@@ -58,7 +61,7 @@
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
   <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="alt h" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f8" />
@@ -68,6 +71,11 @@
     <keyboard-shortcut first-keystroke="shift alt j" />
     <keyboard-shortcut first-keystroke="shift ctrl m" />
     <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+    <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="alt p" />
@@ -98,5 +106,6 @@
   <action id="XDebugger.AttachToLocalProcess">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
+  <action id="context.save" />
   <action id="tasks.close" />
 </keymap>
