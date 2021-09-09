@@ -2,12 +2,15 @@
   <component name="FileTypeManager" version="18">
     <ignoreFiles list="*.meta;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <mapping pattern=".bat" type="Batch" />
+      <mapping pattern=".cmd" type="Batch" />
       <mapping ext="escript" type="Erlang" />
       <mapping pattern="*.data.cfg" type="Erlang Terms" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="hero_attr_port.cfg" type="PLAIN_TEXT" />
       <mapping ext="boot" type="PLAIN_TEXT" />
+      <mapping ext="log" type="PLAIN_TEXT" />
       <mapping pattern="*.lua.txt" type="lua" />
       <mapping ext="txt" type="lua" />
       <mapping pattern="*.proto.txt" type="protobuf" />
@@ -18,7 +21,6 @@
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="json" approved="true" type="JSON" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
@@ -37,8 +39,6 @@
       <mapping ext="tps" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
-      <mapping pattern=".bat" type="Batch" />
-      <mapping pattern=".cmd" type="Batch" />
     </extensionMap>
   </component>
 </application>
