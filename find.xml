@@ -5,7 +5,6 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
-    <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
@@ -15,5 +14,6 @@
     <mask>*.lua.txt</mask>
     <mask>*.hrl</mask>
     <mask>*.txt</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
