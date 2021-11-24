@@ -12,8 +12,8 @@
     <mask>*.cfg</mask>
     <mask>*.erl</mask>
     <mask>*.lua.txt</mask>
-    <mask>*.hrl</mask>
     <mask>*.txt</mask>
     <mask>*.xml</mask>
+    <mask>*.hrl</mask>
   </component>
 </application>
