@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.erl" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -10,10 +11,10 @@
     <mask>*.java</mask>
     <mask>*.proto.txt</mask>
     <mask>*.cfg</mask>
-    <mask>*.erl</mask>
     <mask>*.lua.txt</mask>
     <mask>*.txt</mask>
     <mask>*.xml</mask>
     <mask>*.hrl</mask>
+    <mask>*.erl</mask>
   </component>
 </application>
