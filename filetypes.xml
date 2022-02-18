@@ -11,7 +11,6 @@
       <mapping pattern="hero_attr_port.cfg" type="PLAIN_TEXT" />
       <mapping ext="boot" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
-      <mapping ext="qrc" type="XML" />
       <mapping pattern="*.lua.txt" type="lua" />
       <mapping ext="txt" type="lua" />
       <mapping pattern="*.proto.txt" type="protobuf" />
