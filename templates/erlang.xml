@@ -102,4 +102,11 @@
       <option name="ERLANG_CODE" value="true" />
     </context>
   </template>
+  <template name="ioff" value="%% TODO delete by shenhj&#10;io:format(get({print,1}), &quot;$PATTERN$ = ~p~n&quot;, [$PATTERN$])," description="io:format" toReformat="false" toShortenFQNames="true">
+    <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_EXPRESSION" value="true" />
+      <option name="ERLANG_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
