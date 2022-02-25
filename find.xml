@@ -10,12 +10,12 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>*.proto.txt</mask>
     <mask>*.txt</mask>
     <mask>*.xml</mask>
     <mask>*.hrl</mask>
     <mask>*.lua.txt</mask>
     <mask>*.erl</mask>
     <mask>*.cfg</mask>
+    <mask>*.proto.txt</mask>
   </component>
 </application>
