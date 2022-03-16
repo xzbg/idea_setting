@@ -5,6 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.proto.txt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -15,7 +16,7 @@
     <mask>*.hrl</mask>
     <mask>*.lua.txt</mask>
     <mask>*.erl</mask>
-    <mask>*.proto.txt</mask>
     <mask>*.cfg</mask>
+    <mask>*.proto.txt</mask>
   </component>
 </application>
