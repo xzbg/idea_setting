@@ -13,11 +13,11 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.xml</mask>
-    <mask>*.hrl</mask>
     <mask>*.proto.txt</mask>
     <mask>*.txt</mask>
     <mask>*.lua.txt</mask>
     <mask>*.erl</mask>
     <mask>*.cfg</mask>
+    <mask>*.hrl</mask>
   </component>
 </application>
