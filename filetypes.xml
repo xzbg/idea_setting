@@ -10,6 +10,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="hero_attr_port.cfg" type="PLAIN_TEXT" />
       <mapping ext="boot" type="PLAIN_TEXT" />
+      <mapping ext="args" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
       <mapping pattern="*.lua.txt" type="lua" />
       <mapping ext="txt" type="lua" />
