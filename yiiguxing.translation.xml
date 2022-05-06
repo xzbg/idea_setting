@@ -23,7 +23,6 @@
         <option name="appId" value="hj_shen@163.com" />
       </app-key>
     </option>
-    <option name="translator" value="YOUDAO" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="hj_shen@163.com" />
