@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Forbid" />
       <item value="foreach" />
       <item value="actually" />
       <item value="Predicate" />
@@ -8,9 +9,25 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="4" />
-        <entry key="ENGLISH" value="4" />
+        <entry key="CHINESE" value="6" />
+        <entry key="ENGLISH" value="7" />
       </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1651803256827" />
+  </component>
+  <component name="Settings">
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="hj_shen@163.com" />
+      </app-key>
+    </option>
+    <option name="translator" value="YOUDAO" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="hj_shen@163.com" />
+      </youdao-translate>
     </option>
   </component>
 </application>
