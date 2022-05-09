@@ -1,21 +1,26 @@
 <application>
   <component name="FileTypeManager" version="18">
-    <ignoreFiles list="*.meta;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
+    <ignoreFiles list="*.meta;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc" />
     <extensionMap>
       <mapping pattern=".bat" type="Batch" />
       <mapping pattern=".cmd" type="Batch" />
       <mapping ext="escript" type="Erlang" />
+      <mapping pattern="*.data.cfg" type="Erlang Terms" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="hero_attr_port.cfg" type="PLAIN_TEXT" />
       <mapping ext="boot" type="PLAIN_TEXT" />
       <mapping ext="args" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
+      <removed_mapping ext="qrc" type="XML" />
+      <mapping pattern="*.lua.txt" type="lua" />
+      <mapping ext="txt" type="lua" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="beam" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cfg" approved="true" type="Erlang Terms" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="config" approved="true" type="LOMBOK_CONFIG" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="json" approved="true" type="JSON" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
@@ -25,9 +30,7 @@
       <removed_mapping ext="yaml" approved="true" type="YAML" />
       <removed_mapping pattern=".cfg" approved="true" type="Erlang Terms" />
       <removed_mapping pattern=".escript" approved="true" type="Erlang" />
-      <mapping pattern="*.data.cfg" type="Erlang Terms" />
       <mapping ext="fnc" type="DBN-PSQL" />
-      <mapping pattern="*.lua.txt" type="lua" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
@@ -37,7 +40,6 @@
       <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="tps" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
-      <mapping ext="txt" type="lua" />
       <mapping ext="vw" type="DBN-SQL" />
     </extensionMap>
   </component>
