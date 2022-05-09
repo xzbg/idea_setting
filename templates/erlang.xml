@@ -12,11 +12,8 @@
     <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="GUARD" expression="when $GUARD$" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
-  <template name="B" value="begin&#10;    $SELECTION$&#10;end" description="surround with begin...end" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="B" value="begin&#10;    $SELECTION$&#10;end" description="surround with begin...end" toReformat="false" toShortenFQNames="true" />
   <template name="iof" value="%% TODO delete by shenhj&#10;io:format(&quot;$PATTERN$ = ~p~n&quot;, [$PATTERN$])," description="io:format" toReformat="false" toShortenFQNames="true">
     <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -75,7 +72,6 @@
     <variable name="LIST" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RES" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="rec" value="-record($NAME$, {&#10;    $FIELD1$ = $TYPE1$,&#10;    $FIELD2$ = $TYPE2$&#10;})." description="define record" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
@@ -83,7 +79,6 @@
     <variable name="TYPE1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="oo" value="($EXPR$)$END$" shortcut="SPACE" description="()" toReformat="false" toShortenFQNames="true">
     <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
