@@ -12,6 +12,7 @@
       <mapping ext="boot" type="PLAIN_TEXT" />
       <mapping ext="args" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
+      <removed_mapping ext="qrc" type="XML" />
       <mapping pattern="*.lua.txt" type="lua" />
       <mapping ext="txt" type="lua" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
