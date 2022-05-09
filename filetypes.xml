@@ -1,6 +1,6 @@
 <application>
   <component name="FileTypeManager" version="18">
-    <ignoreFiles list="*.meta;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc" />
+    <ignoreFiles list="*.meta;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping pattern=".bat" type="Batch" />
       <mapping pattern=".cmd" type="Batch" />
@@ -12,7 +12,7 @@
       <mapping ext="boot" type="PLAIN_TEXT" />
       <mapping ext="args" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
-      <removed_mapping ext="qrc" type="XML" />
+      <mapping ext="qrc" type="XML" />
       <mapping pattern="*.lua.txt" type="lua" />
       <mapping ext="txt" type="lua" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
