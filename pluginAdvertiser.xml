@@ -678,6 +678,22 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.lua">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.tang" />
+              <option name="myPluginName" value="EmmyLua" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.lua.txt">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.tang" />
+              <option name="myPluginName" value="EmmyLua" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.markdown">
           <value>
             <plugin>
@@ -756,6 +772,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.pb">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="idea.plugin.protoeditor" />
+              <option name="myPluginName" value="Protocol Buffer Editor" />
             </plugin>
           </value>
         </entry>
@@ -864,6 +888,14 @@
               <option name="myPluginId" value="com.intellij.properties" />
               <option name="myPluginName" value="Properties" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.proto">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="idea.plugin.protoeditor" />
+              <option name="myPluginName" value="Protocol Buffer Editor" />
             </plugin>
           </value>
         </entry>
@@ -999,6 +1031,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.textproto">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="idea.plugin.protoeditor" />
+              <option name="myPluginName" value="Protocol Buffer Editor" />
             </plugin>
           </value>
         </entry>
@@ -1503,6 +1543,21 @@
                   <entry key="XSLT">
                     <value>
                       <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" />
+                    </value>
+                  </entry>
+                  <entry key="lua.app">
+                    <value>
+                      <FeaturePluginData displayName="Lua Application" pluginName="EmmyLua" pluginId="com.tang" />
+                    </value>
+                  </entry>
+                  <entry key="lua.emmy.debugger">
+                    <value>
+                      <FeaturePluginData displayName="Emmy Debugger(NEW)" pluginName="EmmyLua" pluginId="com.tang" />
+                    </value>
+                  </entry>
+                  <entry key="lua.mobdebug">
+                    <value>
+                      <FeaturePluginData displayName="Lua Remote(Mobdebug)" pluginName="EmmyLua" pluginId="com.tang" />
                     </value>
                   </entry>
                   <entry key="org.elixir_lang.distillery.configuration.Type">
